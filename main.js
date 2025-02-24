@@ -60,7 +60,7 @@ function shuffle(array, rng) {
 }
 
 function get_random_baseline_color(rng) {
-    let col1 = randf_range(70, 100, rng);
+    let col1 = randf_range(70, 150, rng);
     let col2 = randf_range(50, Math.min(70, col1 - 5), rng);
     let col3 = randf_range(25, 35, rng);
 
